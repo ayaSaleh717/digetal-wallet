@@ -23,7 +23,7 @@
   ],
   "author": "ayaSaleh717",
   "license": "MIT",
-  "homepage": "http://ayaSaleh717.github.io/wallet",
+  "homepage": "http://ayaSaleh717.github.io/digetal-wallet",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
