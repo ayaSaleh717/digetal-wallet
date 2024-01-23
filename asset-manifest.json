@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/digetal-wallet/static/css/main.4ebc4cc6.css",
+    "main.js": "/digetal-wallet/static/js/main.9aba03e2.js",
+    "static/media/1.jpg": "/digetal-wallet/static/media/1.691be7a251e7d712fbab.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/digetal-wallet/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/digetal-wallet/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/digetal-wallet/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/nucleo-icons.svg": "/digetal-wallet/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/digetal-wallet/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/digetal-wallet/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bitcoin.jpg": "/digetal-wallet/static/media/bitcoin.5f687a28eb23141f932c.jpg",
+    "static/media/nucleo-icons.eot": "/digetal-wallet/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/digetal-wallet/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "/digetal-wallet/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/digetal-wallet/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "static/media/google.svg": "/digetal-wallet/static/media/google.eae9aa9354350126d1b032847835a051.svg",
+    "index.html": "/digetal-wallet/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.4ebc4cc6.css",
+    "static/js/main.9aba03e2.js"
+  ]
+}
