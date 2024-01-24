@@ -1,4 +1,22 @@
 import React from "react";
+import {
+  Animator,
+  ScrollContainer,
+  ScrollPage,
+  batch,
+  Fade,
+  FadeIn,
+  FadeOut,
+  Move,
+  MoveIn,
+  MoveOut,
+  Sticky,
+  StickyIn,
+  StickyOut,
+  Zoom,
+  ZoomIn,
+  ZoomOut,
+} from "react-scroll-motion";
 
 // reactstrap components
 import { Container, Row } from "reactstrap";
@@ -13,6 +31,8 @@ import Carousel from "components/carsoural/Carousel";
 // import Coins from "components/coins/Coins";
 import SimpleFooter from "components/Footers/SimpleFooter";
 // import Coins from "components/coinsrc/coins/Coins";
+const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+const FadeUp = batch(Fade(), Move(), Sticky());
 
 class Index extends React.Component {
   componentDidMount() {
@@ -23,22 +43,36 @@ class Index extends React.Component {
   render() {
     return (
       <>
-      <DemoNavbar />
-      <main ref="main">
-        <Hero />
-        <section className="section">
-          <Container>
-            <TabsSection />
-          </Container>
-        </section>
-        <section className="section section-components">
-          <Container></Container>
-        </section>
-       <Carousel />
-       {/* <Coins /> */}
-      </main> 
-      <SimpleFooter />
-    </>
+       <ScrollContainer>
+          <DemoNavbar />
+      
+
+          <main ref="main">
+          <Hero />
+          {/* <ScrollPage>
+    <Animator animation={FadeUp}>
+            <Hero />
+            </Animator>
+  </ScrollPage> */}
+            <section className="section">
+              <Container>
+              <Animator animation={MoveIn(-1000, 0)}>
+                <TabsSection />
+                </Animator>
+              </Container>
+            </section>
+           
+            <Carousel />
+            
+
+            {/* <Coins /> */}
+          </main>
+          
+          <Container> <SimpleFooter /></Container>
+         
+          </ScrollContainer>
+       
+      </>
     );
   }
 }
